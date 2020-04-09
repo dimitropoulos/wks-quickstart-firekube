@@ -42,7 +42,7 @@ spec:
         operator: Exists
       containers:
       - name: controller
-        image: quay.io/wksctl/controller:latest
+        image: docker.io/dimitropoulos/wksctl-controller:support_1.16.x-e5427cb7
         command:
         - /bin/controller
         - --verbose
